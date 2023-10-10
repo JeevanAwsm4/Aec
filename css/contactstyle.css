@@ -1,0 +1,74 @@
+* {
+    list-style:none;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    width: 100%;
+  
+
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li {
+    margin-right: 20px; 
+     
+}
+header ul li a {
+    color: #fff;
+}
+header a img {
+    height: 50px;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1040px;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1040px;
+
+}
+section.contact section.data  {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 200px;
+      text-align: center;
+}
+section.contact section.data section.call img {
+    height: 100px;
+}
+section.contact section.data section.call h1 {
+    font-size: 30px;
+}
+section.contact section.data section.call h3 {
+    font-size: 30px;
+}
+section.contact section.data section.call p {
+    font-size: 20px;
+}
+section.contact section.data section.email img {
+    height: 100px;
+}
+section.contact section.data section.email h3 {
+    font-size: 30px;
+
+}
+section.contact section.data section.email a {
+    font-size: 30px;
+    color: #000;
+}

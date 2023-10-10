@@ -1,0 +1,204 @@
+* {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+     margin: 0;
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    width: 100%;
+  
+
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li {
+    margin-right: 20px; 
+     
+}
+header ul li a {
+    color: #fff;
+}
+header a img {
+    height: 50px;
+    padding-left: 50px;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1040px;
+
+}
+section.spotlight {
+    background-image:linear-gradient( to right, rgb(64, 17, 141) , rgb(9, 204, 243) , rgb(238, 10, 234));
+    height: 150vh;
+}
+.spotlight section.content  {
+    text-align: center;
+}
+.spotlight section.content  h1 {
+    padding-top: 300px;
+    font-size: 52px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.spotlight section.content  p {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.spotlight section.content a.button {
+    padding: 20px;
+    border-radius: 35px;
+    background: #000;
+    color: #fff;
+    margin-right: 100px;
+
+}
+.spotlight section.content a.button:first-child {
+   padding-left: 100px;
+}
+.fireee {
+    height: 80vh;
+    background-image:linear-gradient( to right, rgb(8, 182, 66) , rgb(2, 19, 22) , rgb(10, 189, 238));
+    display: flex;
+    justify-content: space-between;
+}
+.fireee section.data {
+display: flex;
+justify-content: space-between;
+}
+.fireee section.data img  {
+    height:400px;
+    padding-left: 0;
+    display: block;
+    padding: 0;
+    width:auto;
+    margin: 0;
+    padding-top:100px;
+}
+.fireee section.data div.container h3 {
+    margin-top: 200px;
+    display: block;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+           
+.fireee section.data div.container span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom:20px;
+   
+
+}
+.fireee section.data div.container a.button {
+    color: #fff;
+    padding:20px;
+    border-radius: 50px;
+    background-color: #000;
+    margin-top: 100px;
+}
+section.bata {
+    background-image: url(Images/shoe.jpg);
+    height: 100vh;
+}
+section.bata section.content  {
+    color: #fff;
+    font-size: 53px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 300px;
+}
+section.bata section.content h1 {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 53px;
+    font-weight: 700;
+    text-align: center;
+}
+section.bata section.content a {
+    color: #000;
+    padding: 20px;
+    font-size: 23px;
+    font-weight: 100;
+    background-color: rgb(252, 252, 252);
+
+}
+section.trust  {
+    height: 100vh;
+    background-color: black;
+    
+}
+section.trust section.datta {
+    text-align: center;
+    color: #fff;
+}
+section.trust section.datta img {
+    margin-top: 200px;
+
+}
+section.trust section.datta p {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+section.trust section.datta span {
+    font-size: 15px;
+    font-weight: 900;
+}
+section.warranty {
+    height: 100vh;
+    
+}
+section.warranty section.container {
+    background: #fff;
+    color: #000;
+    text-align: center;
+}
+section.warranty section.container img {
+    margin-top: 100px;
+    
+}
+section.warranty section.container h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+section.warranty section.container p {
+    margin-top: 250px;
+    text-align: right; !important
+    font-size: 15px;
+    margin-right: 0;
+}
+footer {
+    background-color:#252e43 ;
+    height:20vh;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+footer div.left {
+    color: darkgray;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+footer div.right {
+    color: darkgray;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 30px;
+
+}
